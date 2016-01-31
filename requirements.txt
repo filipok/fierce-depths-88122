@@ -1,0 +1,12 @@
+Django
+https://github.com/filipok/Wooey.git
+django-sslify
+django-storages
+django-celery
+django-autoslug
+boto
+waitress
+psycopg2
+collectfast
+honcho
+django-heroku-postgresify
