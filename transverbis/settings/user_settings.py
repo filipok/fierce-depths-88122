@@ -1,6 +1,7 @@
 from os import environ
 from .wooey_settings import *
 from postgresify import postgresify
+DEBUG = True
 # This file is where the user can override and customize their installation of wooey
 
 # Wooey Apps - add additional apps here after the initial install (remember to follow everything by a comma)
@@ -39,18 +40,6 @@ STATIC_URL = '/static/'
 
 ## A postgres database -- for multiple users a sqlite based database is asking for trouble
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-#         # for production environments, these should be stored as environment variables
-#         # I also recommend the django-heroku-postgresify package for a super simple setup
-#         'NAME': os.environ.get('DATABASE_NAME', 'wooey'),
-#         'USER': os.environ.get('DATABASE_USER', 'wooey'),
-#         'PASSWORD': os.environ.get('DATABASE_PASSWORD', 'wooey'),
-#         'HOST': os.environ.get('DATABASE_URL', 'localhost'),
-#         'PORT': os.environ.get('DATABASE_PORT', '5432')
-#     }
-# }
 DATABASES = postgresify()
 
 ## A better celery backend -- using RabbitMQ (these defaults are from two free rabbitmq Heroku providers)
@@ -62,7 +51,7 @@ BROKER_POOL_LIMIT = 1
 CELERYD_CONCURRENCY = 1
 CELERY_TASK_SERIALIZER = 'json'
 ACKS_LATE = True
-
+#
 
 ## for production environments, django-storages abstracts away much of the difficulty of various storage engines.
 ## Here is an example for hosting static and user generated content with S3
