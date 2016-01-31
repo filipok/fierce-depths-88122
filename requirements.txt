@@ -1,5 +1,5 @@
 Django
-https://github.com/filipok/Wooey.git
+git+git://github.com/filipok/Wooey.git
 django-sslify
 django-storages
 django-celery
