@@ -118,4 +118,4 @@ WOOEY_EPHEMERAL_FILES = True
 
 AUTHENTICATION_BACKEND = 'django.contrib.auth.backends.ModelBackend'
 
-DEBUG = False
+#DEBUG = False
