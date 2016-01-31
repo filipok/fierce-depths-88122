@@ -1,7 +1,7 @@
 from os import environ
 from .wooey_settings import *
 from postgresify import postgresify
-DEBUG = False
+DEBUG = True
 # This file is where the user can override and customize their installation of wooey
 
 # Wooey Apps - add additional apps here after the initial install (remember to follow everything by a comma)
