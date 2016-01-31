@@ -10,3 +10,4 @@ psycopg2
 collectfast
 honcho
 django-heroku-postgresify
+http://transverbisalign.s3.amazonaws.com/align-0.1.tar.gz
