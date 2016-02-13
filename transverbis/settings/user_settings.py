@@ -1,7 +1,7 @@
 from os import environ
 from .wooey_settings import *
 from postgresify import postgresify
-DEBUG = True
+DEBUG = False
 # This file is where the user can override and customize their installation of wooey
 
 # Wooey Apps - add additional apps here after the initial install (remember to follow everything by a comma)
@@ -107,4 +107,4 @@ WOOEY_EPHEMERAL_FILES = True
 
 AUTHENTICATION_BACKEND = 'django.contrib.auth.backends.ModelBackend'
 
-DEBUG = True
+DEBUG = False
