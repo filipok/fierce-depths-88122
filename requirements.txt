@@ -11,4 +11,4 @@ collectfast
 honcho
 django-heroku-postgresify
 http://transverbisalign.s3.amazonaws.com/align-0.2.tar.gz
-git+git://github.com/filipok/django-transverbis-blog.git@perso
+git+git://github.com/filipok/django-transverbis-blog.git@perso2
