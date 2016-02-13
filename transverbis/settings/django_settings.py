@@ -25,7 +25,7 @@ SECRET_KEY = 'spiciwf5scc5g(e%b@8#eu1xajb19!(4(cecz!6_cc!5gl)$$v'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [u'www.transverbis.ro']
 
 
 # Application definition
