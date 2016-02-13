@@ -71,7 +71,8 @@ if not DEBUG:
 ALLOWED_HOSTS = (
     'localhost',
     '127.0.0.1',
-    "fierce-depths-88122.herokuapp.com",# put your site here
+    'fierce-depths-88122.herokuapp.com',
+    'www.transverbis.ro',
 )
 
 AWS_CALLING_FORMAT = VHostCallingFormat
