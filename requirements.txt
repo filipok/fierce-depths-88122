@@ -1,5 +1,5 @@
 Django
--e git+git://github.com/filipok/Wooey.git@transverbis2016#egg=woo
+-e git+git://github.com/filipok/Wooey.git@0.9.11#egg=woo
 django-sslify
 django-storages
 django-celery
