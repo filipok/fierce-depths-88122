@@ -1,4 +1,4 @@
-Django
+Django==1.9
 -e git+git://github.com/filipok/Wooey.git@0.9.11#egg=woo
 django-sslify
 django-storages
