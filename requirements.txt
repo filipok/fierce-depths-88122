@@ -10,5 +10,5 @@ psycopg2
 collectfast
 honcho
 django-heroku-postgresify
-http://transverbisalign.s3.amazonaws.com/align-0.8.5.tar.gz
+http://transverbisalign.s3.amazonaws.com/align-0.8.5.1.tar.gz
 -e git+git://github.com/filipok/django-transverbis-blog.git@perso2#egg=djtvblog
