@@ -1,2 +1,2 @@
 web: waitress-serve --connection-limit 2000 --channel-timeout=300 --port=$PORT transverbis.wsgi:application
-worker: python manage.py celery worker -c 1 --beat -l info
+worker: python manage.py celery worker -c 1 --beat -l info --without-gossip --without-mingle --without-heartbeat
